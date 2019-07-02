@@ -1,0 +1,22 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+pod 'Socket.IO-Client-Swift', '~> 15.1.0'
+pod 'Starscream', '~> 3.1'
+
+target 'SocketManager' do
+
+# Pods for SocketManager
+
+target 'SocketManagerTests' do
+inherit! :search_paths
+# Pods for testing
+end
+
+target 'SocketManagerUITests' do
+inherit! :search_paths
+# Pods for testing
+end
+
+end
+
